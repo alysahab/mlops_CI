@@ -7,7 +7,7 @@ def test_convert_to_celsius():
 
 def test_convert_to_fahrenheit():
     assert app.convert_to_fahrenheit(0.0) == 32.0
-    assert app.convert_to_fahrenheit(37.77777777777778) == 101.0
+    assert app.convert_to_fahrenheit(37.77777777777778) == 100.0
     
 def test_conversion_logic():
     # Test Fahrenheit to Celsius conversion
